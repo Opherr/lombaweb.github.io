@@ -1,0 +1,77 @@
+body{
+    background-color: #084596;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider {
+  width: 200%;
+  height: 100vh; 
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.page {
+  width: 50%;
+  height: 100vh;
+  flex-shrink: 0;
+  position: relative;
+
+
+}
+
+.page1{
+    background-image:url(gbr/tujkiri.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.page2{
+    background-image: url(gbr/tujkanan.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.next{
+    position: relative;
+    height: 150px;
+    width: auto;
+    left: 77%;
+    top: 25%;
+    transition: transform 0.5s ease;
+}
+.next:hover, .back:hover, .back2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.back2{
+    position: relative;
+    height: 150px;
+    width: auto;
+    left: -17%;
+    top: 27%;
+    transition: transform 0.4s ease;
+}
+.back{
+    position: relative;
+    height: 150px;
+    width: auto;
+    left: 79%;
+    top: -45%;
+    transition: transform 0.5s ease;
+}
+
+.teks1{
+    height: 500px;
+    position: relative;
+    left: 23%;
+    top: 9%;
+}
+.teks2{
+    height: 486px;
+    position: relative;
+    left: -36.4%;
+    top: 9.988%;
+}
+
