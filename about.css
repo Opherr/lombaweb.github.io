@@ -1,0 +1,58 @@
+body { 
+    background-image: url(gbr/bgper.png);
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.judul {
+    font-family: "Press Start 2P", cursive;
+    color: white;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.back {
+    height: 90px;
+    width: auto;
+    transition: transform 0.25s ease;
+    position: fixed;
+    top: 0%;
+    left: 1%;
+}
+
+
+.judul{
+    font-family: "Press Start 2P", cursive;
+    font-size: 45px;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+img{
+    position: relative;
+    align-items: center;
+    height: 700px;
+
+}
+
+.karakter{
+    position: relative;
+    top: 2%;
+}
+.nama{
+    height: 800px;
+    position: fixed;
+    top: 25%;
+}
+
+.back:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
