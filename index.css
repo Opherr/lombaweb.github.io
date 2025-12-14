@@ -1,0 +1,74 @@
+body { 
+    background-image: 
+    linear-gradient(rgba(8, 69, 150, 0.2), rgba(8, 69, 150, 0.2)),
+    url('gbr/home2.png'),
+    url('gbr/lyratasbghome.png');
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+body.fade-in {
+  opacity: 1;
+}
+.judul{
+    font-family: "Press Start 2P", cursive;
+    font-size: 45px;
+    color: white;
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+
+img{
+    height: 180px;
+    width: auto;
+    transition: transform 0.25s ease;
+    display: flex;
+    position: absolute;
+    top: 90%;
+    left: 30%;
+}
+img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.gbr {
+    position: fixed;
+    top: -16%;
+    left: -44%;
+    width: 100px;
+    height: auto;
+}
+
+.menu {
+    position: fixed;
+    top: -14.5%;
+    left: 132%;
+    width: 80px;
+    height: auto;
+    transition: transform 0.25s ease;
+}
+.menu:hover {
+    transform: scaleX(0.8);
+}
+.menu:not(:hover) {
+  animation: bounceBack 0.4s ease-out;
+}
+
+@keyframes bounceBack {
+  0% {
+    transform: scalex(0.8);
+  }
+  60% {
+    transform: scalex(1.1);
+  }
+  100% {
+    transform: scalex(1);
+  }
+}
