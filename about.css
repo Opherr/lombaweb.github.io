@@ -19,7 +19,7 @@ body {
     width: auto;
     transition: transform 0.25s ease;
     position: fixed;
-    top: 0%;
+    top: 1%;
     left: 0%;
 }
 
@@ -55,4 +55,5 @@ img{
 .back:hover{
     transform: scale(1.1);
     cursor: pointer;
+
 }
